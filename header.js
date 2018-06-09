@@ -1,0 +1,9 @@
+$(document).ready(function(){
+  $(window).scroll(function(){
+    if($(this).scrollTop()>0){
+      $('#encabezado_carito').addClass('.encabezado_carito2');
+    }else{
+      $('#encabezado_carito').removeClass('.encabezado_carito2');
+    }
+  });
+});
