@@ -1,0 +1,70 @@
+#logo{
+  display: grid;
+  margin: auto;
+}
+body{
+  background-color: #E8C6E3;
+}
+p{
+  color:green;
+  text-align: justify;
+  font-size: 1em;
+  font-family: sans-serif;
+
+}
+h1{
+  color:red;
+  font-style: oblique;
+  }
+  .titulo{
+    text-align:center;
+}
+h2{
+  color:blue;
+  font-style: oblique;
+}
+nav{
+  color:rebeccapurple;
+  }
+  h3{
+    color:orange;
+  }
+  .Titulo_Encanto{
+  color:#B42C30;
+  text-align:center;
+  }
+
+  #Cabecera{
+    color:violet;
+  }
+#Pie{
+  color:silver;
+}
+footer{
+  color:silver;
+}
+.clase_cerete{
+  color: #inherit;
+  font-style:italic;
+}
+a:link{
+  color:brown;
+}
+a:visited{
+  color:olive;
+}
+tr:first-child{
+  background:#B8FAD5;
+}
+tr:last-child{
+  background:#F8ADE8;
+}
+tr:nth-child(2n){
+  background: #F4CC18;
+}
+tr:nth-child(4n){
+  background: #F4ED78;
+}
+#tabla_municipios{
+  display: contents; 
+}
