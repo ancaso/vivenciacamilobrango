@@ -1,3 +1,61 @@
+*{margin: 0; padding: 0;}
+
+#encabezado_carito{
+  width: 100%;
+  overflow: hidden;
+  background: #B9EF12;
+  margin-bottom: 20px;
+}
+
+.wrapper{
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+  }
+  #encabezado_carito .logo_carito{
+    color: #7C0A22;
+    font-size: 50px;
+    line-height: 100px;
+    float: left;
+
+    }
+
+    #encabezado_carito nav{
+      float: right;
+      line-height: 80px;
+    }
+
+    #encabezado_carito nav a{
+
+      display: inline-block;
+      color: #4133E3;
+      text-decoration: none;
+      padding: 10px 20px;
+      line-height: normal;
+      font-weight: bold;
+      font-size: 20px;
+      -webkit-transition:all 500ms ease;
+      -o-transition:all 500ms ease;
+      transition: all 500ms ease;
+    }
+#encabezado_carito nav a:hover{
+  background: #f56f3a;
+  border-radius: 50px;
+}
+  .encabezado_carito2 {
+    position: fixed;
+    height: 200px;
+    }
+  .encabezado_carito2 .logo_carito{
+    line-height: 60px;
+    font-size: 10px;
+  }
+.encabezado_carito2 nav{
+  line-height: 100px;
+}
+
+
 #logo{
   display: grid;
   margin: auto;
@@ -100,4 +158,3 @@ tr:nth-child(4n){
 #text_iglesia{
   text-align: center;
 }
-
