@@ -2,40 +2,55 @@
   display: grid;
   margin: auto;
 }
-body{
-  background-color: #E8C6E3;
-}
+
 p{
-  color:green;
+  color:white;
   text-align: justify;
   font-size: 1em;
   font-family: sans-serif;
+}
+#letra_1::first-letter{
+  font-size: 36px;
+  color: gold;
 
 }
-h1{
-  color:red;
-  font-style: oblique;
+  #primera_letra::first-letter{
+    font-size: 36px
+    color:gold;
   }
-  .titulo{
-    text-align:center;
-}
+
+  h1{
+    background: orange;
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    font-size: 42px;
+  }
+
 h2{
-  color:blue;
-  font-style: oblique;
+color: yellow;
+text-align: inherit;
+font-style: oblique;
+
 }
 nav{
-  color:rebeccapurple;
+  color:yellow;
   }
   h3{
     color:orange;
   }
-  .Titulo_Encanto{
-  color:#B42C30;
-  text-align:center;
-  }
-
+h4{
+  color: yellow;
+  text-align: inherit;
+  font-style: oblique;
+}
+h5{
+  color: yellow;
+  text-align: inherit;
+  font-style: oblique;
+}
   #Cabecera{
-    color:violet;
+    color:white;
   }
 #Pie{
   color:silver;
@@ -48,13 +63,14 @@ footer{
   font-style:italic;
 }
 a:link{
-  color:brown;
+  color:green;
 }
 a:visited{
-  color:olive;
+  color:blue;
 }
 tr:first-child{
   background:#B8FAD5;
+
 }
 tr:last-child{
   background:#F8ADE8;
@@ -64,7 +80,23 @@ tr:nth-child(2n){
 }
 tr:nth-child(4n){
   background: #F4ED78;
-}
+  }
 #tabla_municipios{
-  display: contents; 
+  display: contents;
+  font-size: 40px;
+
+}
+
+#india{
+  display:grid;
+  margin:auto;
+  border-style: ridge;
+}
+#iglesia{
+  display: grid;
+  margin: auto;
+  border-style: ridge;
+}
+#text_iglesia{
+  text-align: center;
 }
